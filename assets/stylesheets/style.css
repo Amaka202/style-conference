@@ -52,13 +52,17 @@ table {
 body {
   background: #293f50;
   color: #888;
-  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 .container{
   margin: 0 auto;
-    width: 960px;
-    padding-left: 30px;
-    padding-right: 30px;
+    width: 100vw;
+}
+
+.contain{
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 h1, h3, h4, h5, p {
@@ -169,7 +173,7 @@ p a {
   border-top: 4px solid #648880;
   padding: 40px 0 22px 0;
   font-size: 48px;
-  font-weight: 100;
+  font-weight: 1000;
   letter-spacing: .5px;
   line-height: 44px;
   text-transform: uppercase;
@@ -182,6 +186,15 @@ p a {
 
 nav{
   text-align: right;
+  
+}
+
+nav a{
+  margin: 0 10px;
+}
+
+nav a:last-child{
+  margin-right: 0;
 }
 
 .primary-nav {
@@ -195,12 +208,58 @@ nav{
   display: flex;
   justify-content: space-around;
   background: #fff;
-  min-width: 960px;
+  width: 100vw;
   padding: 66px 0 44px 0;
 }
+
+.contained{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
  .flexed-2 section{
    padding-right: 30px;
  }
+
+ 
+ .row-alt {
+  padding: 66px 0 44px 0;
+  background: #cbe2c1;
+  background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+
+ }
+
+ .lead {
+  text-align: center;
+}
+.lead p {
+  font-size: 21px;
+  line-height: 33px;
+}
+
+/* speakers */
+
+.speaker-info {
+  border: 1px solid #dfe2e5;
+  border-radius: 5px;
+  margin-top: 88px;
+  padding: 22px 0;
+  text-align: center;
+}
+
+.flex-container{
+  display: flex;
+  width: 100%;
+}
+
+.flex-item1{
+  width: 75%;
+}
+
+.flex-item2{
+  width: 25%;
+}
+
 
 
 footer{
